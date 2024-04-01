@@ -28,7 +28,7 @@ export default function Home() {
   }
 
   return (
-    <main className="h-screen flex items-center">
+    <main className="min-h-screen flex items-center">
       <Card className="border-0 container p-0 h-max flex flex-col">
         <CardHeader className="flex-row gap-4 items-start justify-start">
           <img src="/logo.png" alt="logo" width={64} height={64}/>
