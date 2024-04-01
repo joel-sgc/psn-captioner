@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Provider } from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html suppressHydrationWarning lang="en">
+      <Head>
+        <link rel="manifest" href="./manifest.json" />
+      </Head>
       <body 
         className={cn(
           "min-h-screen bg-background antialiased",

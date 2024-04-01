@@ -31,7 +31,7 @@ export default function Home() {
     <main className="h-screen flex items-center">
       <Card className="border-0 container p-0 h-max flex flex-col">
         <CardHeader className="flex-row gap-4 items-start justify-start">
-          <img />
+          <img src="/logo.png" alt="logo" width={64} height={64}/>
           <div className="flex flex-col gap-2">
             <CardTitle>PSN Caption Generator</CardTitle>
             <CardDescription>Official MPSHS PSN Caption Generator</CardDescription>
